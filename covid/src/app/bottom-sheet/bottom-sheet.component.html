@@ -1,0 +1,39 @@
+<!-- <p>toolbar works!</p> -->
+<!-- <div class="desktop">
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <span matRipple matRippleColor="#FC5C7C" (click)="open('Home')" routerLink= '' [ngStyle]="snackbarService.currentPage==='Home' && { 'border-bottom': '3px solid #FC5C7C'}"><b>Home</b></span>
+      <span matRipple matRippleColor="#FC5C7C" (click)="open('Work')" routerLink= 'work' [ngStyle]="snackbarService.currentPage==='Work' && { 'border-bottom': '3px solid #FC5C7C'}"><b>Work</b></span>
+      <span matRipple matRippleColor="#FC5C7C" (click)="open('Projects')" routerLink= 'projects' [ngStyle]="snackbarService.currentPage==='Projects' && { 'border-bottom': '3px solid #FC5C7C'}"><b>Projects</b></span>
+      <span matRipple matRippleColor="#FC5C7C" (click)="open('About')" routerLink= 'about' [ngStyle]="snackbarService.currentPage==='About' && { 'border-bottom': '3px solid #FC5C7C'}"><b>About</b></span>
+      <span matRipple matRippleColor="#FC5C7C" (click)="open('Contact')" routerLink= 'contact' [ngStyle]="snackbarService.currentPage==='Contact' && { 'border-bottom': '3px solid #FC5C7C'}"><b>Contact</b></span>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</div> -->
+
+<!-- <div class="mobile">
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <div id="menuToggle">
+        <button mat-fab (click) = "openBottomSheet()" class="hamburger" color="default">
+          <mat-icon aria-hidden="false" aria-label="Menu">menu</mat-icon>
+        </button>
+      </div>
+      <span><a (click)="open('Home')" routerLink= '' routerLinkActive="active"><b>{{snackbarService.currentPage}}</b></a></span>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</div> -->
+
+<mat-toolbar>
+  <mat-toolbar-row>
+    <div id="menuToggle">
+      <button mat-fab (click) = "openBottomSheet()" class="hamburger" color="default">
+        <mat-icon aria-hidden="false" aria-label="Menu">menu</mat-icon>
+      </button>
+    </div>
+    <span><a><b>Covid</b></a></span>
+
+    <!-- <span><a (click)="open('Home')" routerLink= '' routerLinkActive="active"><b>{{snackbarService.currentPage}}</b></a></span> -->
+  </mat-toolbar-row>
+</mat-toolbar>
+<!-- <mat-divider></mat-divider> -->
